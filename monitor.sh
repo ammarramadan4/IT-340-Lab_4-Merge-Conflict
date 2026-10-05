@@ -1,6 +1,6 @@
 #!/bin/bash
-# Log the date and memory usage
+# Resolved the merge conflict
 
-echo "DAILY MEMORY CHECK - $(date)" >> system_log.txt
+echo "OFFICIAL SYSTEM WORKING REPORT - $(date)" >> system_log.txt
 free -h | grep Mem >> system_log.txt
 echo "--------------------------------" >> system_log.txt
